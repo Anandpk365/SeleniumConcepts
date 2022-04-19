@@ -23,7 +23,7 @@ public class Demo2 {
 		
 		 driver.findElement(By.linkText("For Employer")).click();
 		 
-		 driver.findElement(By.name("getInTouchName")).sendKeys("Anand");
+		 driver.findElement(By.id("getInTouchName")).sendKeys("Anand");
 		 
 		 driver.findElement(By.id("getInTouchEmail")).sendKeys("anandpk@gmail.com");
 		 

@@ -22,7 +22,8 @@ public class Demo2 {
 		
 		action.moveToElement(driver.findElement(By.xpath("//a[text()='Membership']"))).perform();
 		action.moveToElement(driver.findElement(By.xpath("//a[text()='Become a member']"))).perform();
-		//driver.findElement(By.xpath("//a[text()='Become a member']")).perform();
+		//action.moveToElement(driver.findElement(By.xpath("//a[text()='Membership']"))).perform().pause(1000)
+		//.action.moveToElement(driver.findElement(By.xpath("//a[text()='Become a member']"))).build().perform();
 		driver.findElement(By.xpath("//a[text()='Memberships Benefits']")).click();
 
 	}

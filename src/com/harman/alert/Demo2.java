@@ -17,7 +17,7 @@ public class Demo2 {
 		
 		driver.get("https://nasscom.in/nasscom-membership");
 		
-		driver.findElement(By.id("edit-submitted-contact-person-for-nasscom-email-id-cp")).click();
+		driver.findElement(By.linkText("Calculate Membership Fee")).click();
 		
 		String alertText=driver.switchTo().alert().getText();
 		System.out.println(alertText);
